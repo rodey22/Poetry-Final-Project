@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Poetry Generator</title>
+  </head>
+  <body>
+    <header>
+      <div class="container"></div>
+      <h1 class="title">Poetry Generator</h1>
+    </header>
+    <main>
+      <form class="mainForm" id="poetry-Input">
+        <input
+          type="text"
+          placeholder="Enter the topic of the poem"
+          required
+          autofocus
+          autocomplete="off"
+          class="info"
+          id="Info"
+        />
+
+        <input type="submit" class="button" />
+      </form>
+      <div class="addedContainer">i.e.: love, traveling, or fitness</div>
+      <div class="containerTwo"></div>
+      <div class="poem" id="poem"></div>
+    </main>
+    <footer>
+      <p class="personalInfo">
+        
+        This AI project is coded with💚 by <a href="https://github.com/Rodenchia" target="_blank"></a>
+          Rodenchia Swarts</a 
+        >
+        <a href=" https://github.com/rodey22/Poetry-Final-Project" target="_blank"
+          >open-sourced on GitHub</a>
+        and  is hosted on
+        <a href=" https:///Poetry-Final-Project.netlify.app/" target="_blank"
+          >Netlify</a >
+       
+      </p>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
